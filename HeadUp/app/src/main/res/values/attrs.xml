@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LinePageIndicator">
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="selectedColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="unselectedColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="IndicatorCellView">
+        <attr name="state_current_item" format="boolean" />
+    </declare-styleable>
+</resources>

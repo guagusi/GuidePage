@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_selected="true">
+        <color android:color="@color/indicator_cell_bg" />
+    </item>
+    <item android:state_pressed="true">
+        <color android:color="@color/indicator_cell_bg" />
+    </item>
+    <item app:state_current_item="true" >
+        <color android:color="@color/indicator_cell_current" />
+    </item>
+    <item>
+        <color android:color="@color/indicator_cell_bg" />
+    </item>
+</selector>

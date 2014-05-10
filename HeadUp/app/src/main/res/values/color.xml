@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="indicator_cell_bg">#aeaeae</color>
+    <color name="indicator_cell_current">#ffcece</color>
+</resources>
